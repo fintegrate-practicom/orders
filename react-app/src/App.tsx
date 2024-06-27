@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Products from './products/Products';
 import SmallShoppingBag from './smallBag/SmallShoppingBag';
 import ConfirmeOrder from './ConfirmeOrder';
 import BaseWizard from './Stepper/BaseWizard';
@@ -15,6 +16,7 @@ function App() {
     {/* זה אמור להיות כתוב מתוך קומפננטת תשלום-לא כאן */}
     <ConfirmeOrder newOrder={newOrder} />
     <SmallShoppingBag />
+    <Products/>
     </>
   );
 }
